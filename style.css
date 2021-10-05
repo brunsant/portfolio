@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dbdcd7;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.heading {
+  background-image: url("./annie-spratt-0ZPSX_mQ3xI-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  min-height: 30vh;
+  padding: 10%;
+}
+
+.profile-img {
+  position: absolute;
+  right: 230px;
+  top: 150px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid white;
+  object-fit: cover;
+  filter: grayscale(40%);
+}
+
+nav {
+  position: absolute;
+  right: 24px;
+  top: 48px;
+  font-size: 40px;
+}
+
+.summary-section,
+.tech-section {
+  padding: 5% 20%;
+  text-align: center;
+}
+
+.line {
+  border: 1px solid #abd1d2;
+  width: 40px;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #abd1d2;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 50px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h3 {
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+  background-color: #abd1d2;
+  font-family: "Montserrat";
+}
+
+p,
+li,
+a {
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Roboto";
+}
+
+.featured-projects-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.featured-projects {
+  color: black;
+  text-decoration: none;
+  width: 800px;
+  height: 500px;
+  text-align: center;
+}
+
+.project-img {
+  height: 400px;
+  width: 400px;
+}
+
+.skill {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.skill-items {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.for-more-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5% 0;
+}
+
+footer {
+  background-color: #749391;
+  text-align: center;
+  font-size: 24px;
+  text-align: center;
+  padding: 80px 0px;
+}
