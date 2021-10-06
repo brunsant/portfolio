@@ -24,8 +24,8 @@ body {
 
 .profile-img {
   position: absolute;
-  top: 350px;
-  left: 200px;
+  top: 73%;
+  left: 50%;
   width: 140px;
   height: 140px;
   border-radius: 50%;
