@@ -13,7 +13,7 @@ body {
   background-position: center;
   background-size: cover;
   position: relative;
-  min-height: 60vh;
+  min-height: 65vh;
   padding: 10%;
 }
 
@@ -75,10 +75,6 @@ nav {
   display: inline-block;
 }
 
-h4 {
-  font-size: 25px;
-}
-
 .divider-heading {
   background-color: #abd1d2;
   text-align: center;
@@ -91,7 +87,6 @@ a {
   margin: 0;
   font-size: 14px;
   line-height: 22px;
-  font-family: "Roboto";
 }
 
 .container,
@@ -202,8 +197,65 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .container {
+  .heading {
+    min-height: 40vh;
+    padding: 10%;
+  }
+
+  .heading-name {
+    margin-top: 15%;
+    font-size: 20px;
+  }
+
+  .profile-img {
+    top: 70%;
+    left: 60%;
+    width: 160px;
+    height: 160px;
+  }
+
+  .icon {
+    font-size: 40px;
+    width: 55px;
+  }
+
+  .summary-section,
+  .tech-section {
+    padding: 5% 10%;
+  }
+
+  p,
+  li,
+  a {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .container,
+  .other-projects-container {
+    width: 520px;
+  }
+
+  article {
+    margin-bottom: 45px;
+  }
+
+  .other-projects-container {
+    margin-bottom: 8%;
+  }
+
+  h6 {
+    font-size: 25px;
+  }
+
+  footer {
+    font-size: 30px;
+    text-align: center;
+    padding: 60px 0;
+  }
+
+  /* .container {
     width: 768px;
     margin: 0 auto;
-  }
+  } */
 }
