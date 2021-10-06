@@ -24,14 +24,19 @@ body {
 
 .profile-img {
   position: absolute;
-  top: 360px;
+  top: 350px;
   left: 200px;
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   border: 2px solid white;
   object-fit: cover;
   filter: grayscale(40%);
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 35px;
 }
 
 nav {
@@ -68,11 +73,6 @@ nav {
   background-color: #abd1d2;
   border-radius: 50%;
   display: inline-block;
-}
-
-h1 {
-  font-family: "Montserrat";
-  font-size: 40px;
 }
 
 h4 {
