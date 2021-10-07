@@ -136,7 +136,7 @@ a {
 }
 
 .project-name {
-  color: #749391;
+  color: #526967;
 }
 
 .project-tools {
@@ -158,15 +158,15 @@ article {
 .other-projects {
   color: black;
   text-decoration: none;
-  text-align: justify;
+  text-align: left;
 }
 
 .arrow {
-  color: #749391;
+  color: #526967;
 }
 
 h6 {
-  color: #749391;
+  color: #526967;
   font-size: 20px;
   margin: 5px 0;
 }
@@ -185,7 +185,7 @@ h6 {
 
 h4 {
   font-size: 17px;
-  color: #749391;
+  color: #526967;
 }
 
 .for-more-section {
@@ -208,6 +208,11 @@ footer {
   font-size: 24px;
   text-align: center;
   padding: 80px 0px;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: black;
 }
 
 @media (min-width: 768px) {
