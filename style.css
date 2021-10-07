@@ -94,7 +94,8 @@ a {
 }
 
 .container,
-.other-projects-container {
+.other-projects-container,
+.thougths-container {
   width: 320px;
   margin: 0 auto;
   text-decoration: none;
@@ -122,10 +123,27 @@ a {
   bottom: 0;
   left: 0;
   background: rgba(156, 166, 197, 0.5);
+  transition: 0.5s ease;
+}
+
+.overlay:hover {
+  background-color: transparent;
+}
+
+.overlay-text {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding-top: 40%;
+}
+
+.overlay-text:hover {
+  color: transparent;
 }
 
 .image {
   width: 100%;
+  height: 260px;
   display: block;
 }
 
@@ -152,7 +170,7 @@ article {
 }
 
 .other-projects-header {
-  color: #749391;
+  color: #526967;
 }
 
 .other-projects {
@@ -169,6 +187,21 @@ h6 {
   color: #526967;
   font-size: 20px;
   margin: 5px 0;
+}
+
+.thoughts-image {
+  width: 100%;
+  height: 200px;
+}
+
+.thougths-container {
+  padding-top: 5%;
+}
+
+.more-thoughts-container {
+  padding-bottom: 10%;
+  width: 320px;
+  margin: 0 auto;
 }
 
 .skill {
@@ -251,12 +284,22 @@ footer {
   }
 
   .container,
-  .other-projects-container {
+  .other-projects-container,
+  .thougths-container {
     width: 520px;
   }
 
   article {
     margin-bottom: 45px;
+  }
+
+  .image {
+    height: 360px;
+  }
+
+  .overlay-text {
+    font-size: 35px;
+    padding-top: 35%;
   }
 
   .other-projects-container {
@@ -265,6 +308,15 @@ footer {
 
   h6 {
     font-size: 25px;
+  }
+
+  .thoughts-image {
+    width: 100%;
+    height: 350px;
+  }
+
+  .more-thoughts-container {
+    width: 520px;
   }
 
   footer {
@@ -323,7 +375,8 @@ footer {
   }
 
   .container,
-  .other-projects-container {
+  .other-projects-container,
+  .thougths-container {
     width: 1100px;
   }
 
@@ -339,6 +392,10 @@ footer {
     height: 300px;
   }
 
+  .overlay-text {
+    padding-top: 25%;
+  }
+
   article {
     margin-bottom: 15px;
     width: 45%;
@@ -346,6 +403,22 @@ footer {
 
   h6 {
     font-size: 35px;
+  }
+
+  .thoughts-image {
+    width: 100%;
+    height: 256px;
+  }
+
+  .thougths-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+  }
+
+  .more-thoughts-container {
+    width: 1100px;
+    margin-top: 2%;
   }
 
   .skill {
