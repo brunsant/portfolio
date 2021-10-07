@@ -1,8 +1,7 @@
-* {
-  box-sizing: border-box;
-}
+/* MOBILE VERSION */
 
 body {
+  box-sizing: border-box;
   background-color: #eeeeec;
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -12,6 +11,7 @@ body {
   background-color: #e4e5e1;
 }
 
+/* HEADING */
 .heading {
   background-image: url("./annie-spratt-0ZPSX_mQ3xI-unsplash.jpg");
   background-position: center;
@@ -43,6 +43,7 @@ h1 {
   font-size: 35px;
 }
 
+/* NAV BAR */
 nav {
   display: flex;
   position: absolute;
@@ -57,6 +58,7 @@ nav {
   width: 40px;
 }
 
+/* SECTIONS */
 .summary-section,
 .tech-section {
   margin-top: 10px;
@@ -64,6 +66,13 @@ nav {
   text-align: center;
 }
 
+.divider-heading {
+  background-color: #abd1d2;
+  text-align: center;
+  padding: 3px;
+}
+
+/* SUMMARY SECTION */
 .line {
   border: 1px solid #abd1d2;
   width: 40px;
@@ -79,12 +88,6 @@ nav {
   display: inline-block;
 }
 
-.divider-heading {
-  background-color: #abd1d2;
-  text-align: center;
-  padding: 3px;
-}
-
 p,
 li,
 a {
@@ -93,6 +96,7 @@ a {
   line-height: 22px;
 }
 
+/* PROJECTS SECTION */
 .container,
 .other-projects-container,
 .thougths-container {
@@ -116,6 +120,7 @@ a {
   position: relative;
 }
 
+/* OVERLAY */
 .overlay {
   position: absolute;
   top: 0;
@@ -147,6 +152,7 @@ a {
   display: block;
 }
 
+/* FEATURED PROJECTS */
 .featured-projects {
   color: black;
   text-decoration: none;
@@ -165,6 +171,7 @@ article {
   margin-bottom: 15px;
 }
 
+/* OTHER PROJECTS */
 .other-projects-container {
   margin-bottom: 15%;
 }
@@ -189,6 +196,7 @@ h6 {
   margin: 5px 0;
 }
 
+/* THOUGTHS SECTION */
 .thoughts-image {
   width: 100%;
   height: 200px;
@@ -204,6 +212,7 @@ h6 {
   margin: 0 auto;
 }
 
+/* SKILL SECTION */
 .skill {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -221,6 +230,7 @@ h4 {
   color: #526967;
 }
 
+/* FOR MORE SECTION */
 .for-more-section {
   display: flex;
   flex-direction: row;
@@ -235,6 +245,7 @@ h4 {
   color: black;
 }
 
+/* FOOTER */
 footer {
   background-color: #749391;
   text-align: center;
@@ -248,7 +259,10 @@ footer {
   color: black;
 }
 
+/* TABLET VERSION */
+
 @media (min-width: 768px) {
+  /* HEADER */
   .heading {
     min-height: 40vh;
     padding: 10%;
@@ -271,6 +285,7 @@ footer {
     width: 55px;
   }
 
+  /* SECTIONS */
   .summary-section,
   .tech-section {
     padding: 5% 10%;
@@ -283,6 +298,7 @@ footer {
     line-height: 30px;
   }
 
+  /* PROJETCS */
   .container,
   .other-projects-container,
   .thougths-container {
@@ -302,6 +318,7 @@ footer {
     padding-top: 35%;
   }
 
+  /* OTHER PROJECTS */
   .other-projects-container {
     margin-bottom: 8%;
   }
@@ -310,6 +327,7 @@ footer {
     font-size: 25px;
   }
 
+  /* THOUGHTS SECTION */
   .thoughts-image {
     width: 100%;
     height: 350px;
@@ -319,6 +337,7 @@ footer {
     width: 520px;
   }
 
+  /* FOOTER */
   footer {
     font-size: 30px;
     text-align: center;
@@ -326,7 +345,10 @@ footer {
   }
 }
 
+/* DESKTOP VERSION */
+
 @media (min-width: 1025px) {
+  /* HEADER */
   .heading {
     padding: 15%;
   }
@@ -357,6 +379,7 @@ footer {
     width: 90px;
   }
 
+  /* SECTIONS */
   .summary-section,
   .tech-section {
     margin-top: 20px;
@@ -374,6 +397,7 @@ footer {
     line-height: 50px;
   }
 
+  /* PROJECTS */
   .container,
   .other-projects-container,
   .thougths-container {
@@ -405,6 +429,7 @@ footer {
     font-size: 35px;
   }
 
+  /* THOUGHTS SECTION */
   .thoughts-image {
     width: 100%;
     height: 256px;
@@ -421,6 +446,7 @@ footer {
     margin-top: 2%;
   }
 
+  /* SKILLS SECTION */
   .skill {
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
@@ -435,6 +461,7 @@ footer {
     margin-left: 50px;
   }
 
+  /* FOR MORE SECTION */
   .for-more-section {
     margin: 5% 0 0 6%;
   }
