@@ -190,7 +190,7 @@ article {
   color: #526967;
 }
 
-h6 {
+h3 {
   color: #526967;
   font-size: 20px;
   margin: 5px 0;
@@ -252,6 +252,11 @@ footer {
   font-size: 24px;
   text-align: center;
   padding: 80px 0px;
+}
+
+.contact-footer {
+  font-size: 20px;
+  margin-bottom: 6%;
 }
 
 .footer-links {
@@ -323,7 +328,7 @@ footer {
     margin-bottom: 8%;
   }
 
-  h6 {
+  h3 {
     font-size: 25px;
   }
 
@@ -425,7 +430,7 @@ footer {
     width: 45%;
   }
 
-  h6 {
+  h3 {
     font-size: 35px;
   }
 
