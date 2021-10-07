@@ -3,9 +3,13 @@
 }
 
 body {
-  background-color: #dbdcd7;
+  background-color: #eeeeec;
   font-family: "Montserrat", sans-serif;
   margin: 0;
+}
+
+.portfolio-body:nth-child(2n) {
+  background-color: #e4e5e1;
 }
 
 .heading {
@@ -24,7 +28,7 @@ body {
 
 .profile-img {
   position: absolute;
-  top: 73%;
+  top: 75%;
   left: 50%;
   width: 140px;
   height: 140px;
@@ -104,7 +108,7 @@ a {
 .portfolio-heading {
   background-color: #abd1d2;
   text-align: center;
-  padding: 3px;
+  padding: 4px;
 }
 
 .image-container {
@@ -136,7 +140,7 @@ a {
 }
 
 .project-tools {
-  background-color: #abd1d2;
+  background-color: #cce3e4;
 }
 
 article {
@@ -189,7 +193,8 @@ h4 {
   flex-direction: row;
   justify-content: space-evenly;
   text-align: center;
-  margin: 15% 0 15% 6%;
+  padding-bottom: 10%;
+  margin-left: 13%;
 }
 
 .icon-link {
@@ -275,10 +280,10 @@ footer {
   }
 
   .profile-img {
-    top: 55%;
+    top: 63%;
     left: 68%;
-    width: 333px;
-    height: 333px;
+    width: 300px;
+    height: 300px;
   }
 
   h1 {
@@ -349,6 +354,7 @@ footer {
 
   h4 {
     font-size: 35px;
+    margin-left: 50px;
   }
 
   .for-more-section {
