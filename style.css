@@ -13,7 +13,7 @@ body {
 
 /* HEADING */
 .heading {
-  background-image: url("./annie-spratt-0ZPSX_mQ3xI-unsplash.jpg");
+  background-image: url("./clark-van-der-beken-MQzSZ5BkjAg-unsplash.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -67,14 +67,14 @@ nav {
 }
 
 .divider-heading {
-  background-color: #abd1d2;
+  background-color: #86d7db;
   text-align: center;
   padding: 3px;
 }
 
 /* SUMMARY SECTION */
 .line {
-  border: 1px solid #abd1d2;
+  border: 1px solid #86d7db;
   width: 40px;
   display: inline-block;
   margin-bottom: 4px;
@@ -83,9 +83,10 @@ nav {
 .dot {
   height: 10px;
   width: 10px;
-  background-color: #abd1d2;
+  background-color: #86d7db;
   border-radius: 50%;
   display: inline-block;
+  margin-left: -10px;
 }
 
 p,
@@ -111,7 +112,7 @@ a {
 }
 
 .portfolio-heading {
-  background-color: #abd1d2;
+  background-color: #86d7db;
   text-align: center;
   padding: 4px;
 }
@@ -160,7 +161,7 @@ a {
 }
 
 .project-name {
-  color: #526967;
+  color: #ff8848;
 }
 
 .project-tools {
@@ -177,7 +178,7 @@ article {
 }
 
 .other-projects-header {
-  color: #526967;
+  color: #ff8848;
 }
 
 .other-projects {
@@ -187,11 +188,11 @@ article {
 }
 
 .arrow {
-  color: #526967;
+  color: #ff8848;
 }
 
 h3 {
-  color: #526967;
+  color: #ff8848;
   font-size: 20px;
   margin: 5px 0;
 }
@@ -212,6 +213,10 @@ h3 {
   margin: 0 auto;
 }
 
+.sections-to-hide {
+  display: none;
+}
+
 /* SKILL SECTION */
 .skill {
   display: grid;
@@ -222,12 +227,13 @@ h3 {
 
 .skill-items {
   list-style-type: none;
-  text-align: left;
+  text-align: center;
+  padding: 0;
 }
 
 h4 {
   font-size: 17px;
-  color: #526967;
+  color: #149fa7;
 }
 
 /* FOR MORE SECTION */
@@ -247,7 +253,7 @@ h4 {
 
 /* FOOTER */
 footer {
-  background-color: #749391;
+  background-color: #abd1d2;
   text-align: center;
   font-size: 24px;
   text-align: center;
@@ -257,6 +263,7 @@ footer {
 .contact-footer {
   font-size: 20px;
   margin-bottom: 6%;
+  color: #ff8848;
 }
 
 .footer-links {
@@ -342,11 +349,19 @@ footer {
     width: 520px;
   }
 
+  .sections-to-hide {
+    display: block;
+  }
+
   /* FOOTER */
   footer {
     font-size: 30px;
     text-align: center;
     padding: 60px 0;
+  }
+
+  .contact-footer {
+    font-size: 30px;
   }
 }
 
@@ -371,7 +386,7 @@ footer {
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bolder;
   }
 
@@ -434,6 +449,12 @@ footer {
     font-size: 35px;
   }
 
+  .project-tools {
+    font-size: 22px;
+    padding: 5px;
+    box-shadow: 3px 3px #86d7db;
+  }
+
   /* THOUGHTS SECTION */
   .thoughts-image {
     width: 100%;
@@ -449,6 +470,10 @@ footer {
   .more-thoughts-container {
     width: 1100px;
     margin-top: 2%;
+  }
+
+  .sections-to-hide {
+    display: block;
   }
 
   /* SKILLS SECTION */
@@ -469,5 +494,9 @@ footer {
   /* FOR MORE SECTION */
   .for-more-section {
     margin: 5% 0 0 6%;
+  }
+
+  .contact-footer {
+    font-size: 35px;
   }
 }
