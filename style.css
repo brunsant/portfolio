@@ -277,7 +277,7 @@ footer {
   /* HEADER */
   .heading {
     min-height: 40vh;
-    padding: 10%;
+    padding: 5%;
   }
 
   .heading-name {
@@ -330,6 +330,10 @@ footer {
     padding-top: 35%;
   }
 
+  .project-tools {
+    box-shadow: 1px 1px #86d7db;
+  }
+
   /* OTHER PROJECTS */
   .other-projects-container {
     margin-bottom: 8%;
@@ -370,7 +374,7 @@ footer {
 @media (min-width: 1025px) {
   /* HEADER */
   .heading {
-    padding: 15%;
+    padding: 7%;
   }
 
   .heading-name {
