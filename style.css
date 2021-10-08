@@ -67,14 +67,14 @@ nav {
 }
 
 .divider-heading {
-  background-color: #915b67;
+  background-color: #86d7db;
   text-align: center;
   padding: 3px;
 }
 
 /* SUMMARY SECTION */
 .line {
-  border: 1px solid #915b67;
+  border: 1px solid #86d7db;
   width: 40px;
   display: inline-block;
   margin-bottom: 4px;
@@ -83,7 +83,7 @@ nav {
 .dot {
   height: 10px;
   width: 10px;
-  background-color: ##915b67;
+  background-color: #86d7db;
   border-radius: 50%;
   display: inline-block;
   margin-left: -10px;
@@ -112,7 +112,7 @@ a {
 }
 
 .portfolio-heading {
-  background-color: #915b67;
+  background-color: #86d7db;
   text-align: center;
   padding: 4px;
 }
