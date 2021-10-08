@@ -161,7 +161,7 @@ a {
 }
 
 .project-name {
-  color: #df8064;
+  color: #ab6973;
 }
 
 .project-tools {
@@ -178,7 +178,7 @@ article {
 }
 
 .other-projects-header {
-  color: #df8064;
+  color: #ab6973;
 }
 
 .other-projects {
@@ -188,11 +188,11 @@ article {
 }
 
 .arrow {
-  color: #df8064;
+  color: #ab6973;
 }
 
 h3 {
-  color: #df8064;
+  color: #ab6973;
   font-size: 20px;
   margin: 5px 0;
 }
@@ -233,7 +233,7 @@ h3 {
 
 h4 {
   font-size: 17px;
-  color: #00a2b9;
+  color: #017e97;
 }
 
 /* FOR MORE SECTION */
@@ -262,8 +262,9 @@ footer {
 
 .contact-footer {
   font-size: 20px;
+  font-weight: bolder;
   margin-bottom: 6%;
-  color: #df8064;
+  color: #ab6973;
 }
 
 .footer-links {
