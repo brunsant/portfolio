@@ -1,3 +1,3 @@
-# Portfolio
+Bruna Araujo's Portfolio
 
-https://brunaaraujoportfolio.netlify.app/
+https://araujobruna.dev
