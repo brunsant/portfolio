@@ -156,6 +156,14 @@ a {
   object-fit: cover;
 }
 
+.tools-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-gap: 5px;
+  align-items: center;
+}
+
 /* FEATURED PROJECTS */
 .featured-projects {
   color: black;
@@ -171,19 +179,21 @@ a {
   background-color: #cce3e4;
 }
 
-.view-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 5px 0 10px;
+.view-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin: 5px 10px 10px 0;
+  width: 100%;
 }
 
-.project-view {
+.view-button {
   text-decoration: none;
-  border: 1px solid #86d7db;
-  font-size: 12px;
-  padding: 0 5px;
   color: black;
+  font-size: 12px;
+  padding: 5px 20px;
+  text-align: center;
+  border: 1px solid #86d7db;
 }
 
 article {
@@ -213,34 +223,6 @@ h3 {
   color: #cd2c6c;
   font-size: 20px;
   margin: 5px 0;
-}
-
-.view-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
-  margin: 5px 10px 10px 0;
-  width: 100%;
-}
-
-.individual-view {
-  width: 100%;
-  border: 1px solid #cd2c6c;
-  box-shadow: 1px 1px #86d7db;
-  text-align: center;
-}
-
-.individual-view:hover {
-  background-color: #cce3e4;
-  color: #cd2c6c;
-}
-
-.view-button {
-  text-decoration: none;
-  color: black;
-  font-size: 16px;
-  padding: 5px 20px;
-  text-align: center;
 }
 
 /* THOUGTHS SECTION */
@@ -390,6 +372,11 @@ footer {
 
   .project-tools {
     box-shadow: 1px 1px #86d7db;
+    font-size: 20px;
+  }
+
+  .view-button {
+    font-size: 16px;
   }
 
   /* OTHER PROJECTS */
@@ -413,6 +400,10 @@ footer {
 
   .sections-to-hide {
     display: block;
+  }
+
+  h4 {
+    font-size: 22px;
   }
 
   /* FOOTER */
@@ -511,15 +502,31 @@ footer {
     font-size: 35px;
   }
 
+  .view-button {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 0 20px;
+    text-align: center;
+    border: 1px solid #86d7db;
+  }
+
+  .view-button:hover {
+    color: #86d7db;
+  }
+
+  .tools-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 5px;
+    align-items: center;
+  }
+
   .project-tools {
     font-size: 22px;
     padding: 5px;
     box-shadow: 3px 3px #86d7db;
-  }
-  .project-view:hover {
-    background-color: #cce3e4;
-    color: #cd2c6c;
-    border: none;
   }
 
   /* THOUGHTS SECTION */
