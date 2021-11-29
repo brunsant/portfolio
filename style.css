@@ -141,6 +141,8 @@ a {
   color: white;
   text-align: center;
   padding-top: 40%;
+  width: 100%;
+  height: 100%;
 }
 
 .overlay-text:hover {
@@ -151,6 +153,7 @@ a {
   width: 100%;
   height: 260px;
   display: block;
+  object-fit: cover;
 }
 
 /* FEATURED PROJECTS */
@@ -166,6 +169,21 @@ a {
 
 .project-tools {
   background-color: #cce3e4;
+}
+
+.view-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5px 0 10px;
+}
+
+.project-view {
+  text-decoration: none;
+  border: 1px solid #86d7db;
+  font-size: 12px;
+  padding: 0 5px;
+  color: black;
 }
 
 article {
@@ -197,6 +215,34 @@ h3 {
   margin: 5px 0;
 }
 
+.view-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin: 5px 10px 10px 0;
+  width: 100%;
+}
+
+.individual-view {
+  width: 100%;
+  border: 1px solid #cd2c6c;
+  box-shadow: 1px 1px #86d7db;
+  text-align: center;
+}
+
+.individual-view:hover {
+  background-color: #cce3e4;
+  color: #cd2c6c;
+}
+
+.view-button {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  padding: 5px 20px;
+  text-align: center;
+}
+
 /* THOUGTHS SECTION */
 .thoughts-image {
   width: 100%;
@@ -205,6 +251,12 @@ h3 {
 
 .thougths-container {
   padding-top: 5%;
+}
+
+.article-text {
+  color: black;
+  text-align: center;
+  text-decoration: none;
 }
 
 .more-thoughts-container {
@@ -250,6 +302,11 @@ h4 {
 .icon-link {
   text-decoration: none;
   color: black;
+}
+
+.icon-link:hover,
+.icon:hover {
+  color: #86d7db;
 }
 
 /* FOOTER */
@@ -458,6 +515,11 @@ footer {
     font-size: 22px;
     padding: 5px;
     box-shadow: 3px 3px #86d7db;
+  }
+  .project-view:hover {
+    background-color: #cce3e4;
+    color: #cd2c6c;
+    border: none;
   }
 
   /* THOUGHTS SECTION */
