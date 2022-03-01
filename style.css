@@ -2,13 +2,13 @@
 
 body {
   box-sizing: border-box;
-  background-color: #eeeeec;
+  background-color: #fff;
   font-family: "Montserrat", sans-serif;
   margin: 0;
 }
 
 .portfolio-body:nth-child(2n) {
-  background-color: #e4e5e1;
+  background-color: #f4f4f4;
 }
 
 /* HEADING */
@@ -33,7 +33,7 @@ body {
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  border: 2px solid #a0a1a8;
+  border: 2px solid #9eadbd;
   object-fit: cover;
   filter: grayscale(40%);
 }
@@ -67,14 +67,14 @@ nav {
 }
 
 .divider-heading {
-  background-color: #a0a1a8;
+  background-color: #9eadbd;
   text-align: center;
   padding: 3px;
 }
 
 /* SUMMARY SECTION */
 .line {
-  border: 1px solid #a0a1a8;
+  border: 1px solid #9eadbd;
   width: 40px;
   display: inline-block;
   margin-bottom: 4px;
@@ -83,7 +83,7 @@ nav {
 .dot {
   height: 10px;
   width: 10px;
-  background-color: #a0a1a8;
+  background-color: #9eadbd;
   border-radius: 50%;
   display: inline-block;
   margin-left: -10px;
@@ -112,7 +112,7 @@ a {
 }
 
 .portfolio-heading {
-  background-color: #a0a1a8;
+  background-color: #9eadbd;
   text-align: center;
   padding: 4px;
 }
@@ -172,11 +172,11 @@ a {
 }
 
 .project-name {
-  color: #a0a1a8;
+  color: #9eadbd;
 }
 
 .project-tools {
-  background-color: #bea5aa;
+  background-color: #b5bcc4;
 }
 
 .view-container {
@@ -193,7 +193,7 @@ a {
   font-size: 12px;
   padding: 5px 20px;
   text-align: center;
-  border: 1px solid #bea5aa;
+  border: 1px solid #b5bcc4;
 }
 
 article {
@@ -206,7 +206,7 @@ article {
 }
 
 .other-projects-header {
-  color: #a0a1a8;
+  color: #9eadbd;
 }
 
 .other-projects {
@@ -216,11 +216,11 @@ article {
 }
 
 .arrow {
-  color: #a0a1a8;
+  color: #9eadbd;
 }
 
 h3 {
-  color: #a0a1a8;
+  color: #9eadbd;
   font-size: 20px;
   margin: 5px 0;
 }
@@ -231,7 +231,7 @@ h3 {
   font-size: 12px;
   padding: 5px 20px;
   text-align: center;
-  border: 1px solid #a0a1a8;
+  border: 1px solid #9eadbd;
 }
 
 /* THOUGTHS SECTION */
@@ -278,7 +278,7 @@ h3 {
 h4 {
   font-size: 17px;
   font-weight: bolder;
-  color: #a0a1a8;
+  color: #9eadbd;
 }
 
 /* FOR MORE SECTION */
@@ -298,12 +298,12 @@ h4 {
 
 .icon-link:hover,
 .icon:hover {
-  color: #a0a1a8;
+  color: #9eadbd;
 }
 
 /* FOOTER */
 footer {
-  background-color: #bea5aa;
+  background-color: #b5bcc4;
   text-align: center;
   font-size: 24px;
   text-align: center;
@@ -381,7 +381,7 @@ footer {
   }
 
   .project-tools {
-    box-shadow: 1px 1px #a0a1a8;
+    box-shadow: 1px 1px #9eadbd;
     font-size: 20px;
   }
 
@@ -540,13 +540,13 @@ footer {
   }
 
   .view-button:hover {
-    background-color: #bea5aa;
+    background-color: #b5bcc4;
   }
 
   .project-tools {
     font-size: 22px;
     padding: 5px;
-    box-shadow: 3px 3px #a0a1a8;
+    box-shadow: 3px 3px #9eadbd;
   }
 
   /* OTHER PROJECTS */
@@ -557,7 +557,7 @@ footer {
   }
 
   .view-button-other:hover {
-    background-color: #bea5aa;
+    background-color: #b5bcc4;
   }
 
   /* THOUGTHS SECTION */
