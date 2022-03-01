@@ -13,7 +13,7 @@ body {
 
 /* HEADING */
 .heading {
-  background-image: url("./clark-van-der-beken-MQzSZ5BkjAg-unsplash.jpg");
+  background-image: url("./mufid-majnun-dfP41bjiWVM-unsplash.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -33,7 +33,7 @@ body {
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  border: 2px solid white;
+  border: 2px solid #6c6b68;
   object-fit: cover;
   filter: grayscale(40%);
 }
@@ -67,14 +67,15 @@ nav {
 }
 
 .divider-heading {
-  background-color: #86d7db;
+  background-color: #6c6b68;
+  color: #bebcb1;
   text-align: center;
   padding: 3px;
 }
 
 /* SUMMARY SECTION */
 .line {
-  border: 1px solid #86d7db;
+  border: 1px solid #6c6b68;
   width: 40px;
   display: inline-block;
   margin-bottom: 4px;
@@ -83,7 +84,7 @@ nav {
 .dot {
   height: 10px;
   width: 10px;
-  background-color: #86d7db;
+  background-color: #6c6b68;
   border-radius: 50%;
   display: inline-block;
   margin-left: -10px;
@@ -112,7 +113,8 @@ a {
 }
 
 .portfolio-heading {
-  background-color: #86d7db;
+  background-color: #6c6b68;
+  color: #bebcb1;
   text-align: center;
   padding: 4px;
 }
@@ -172,11 +174,11 @@ a {
 }
 
 .project-name {
-  color: #cd2c6c;
+  color: #6c6b68;
 }
 
 .project-tools {
-  background-color: #cce3e4;
+  background-color: #bebcb1;
 }
 
 .view-container {
@@ -193,7 +195,7 @@ a {
   font-size: 12px;
   padding: 5px 20px;
   text-align: center;
-  border: 1px solid #86d7db;
+  border: 1px solid #bebcb1;
 }
 
 article {
@@ -206,7 +208,7 @@ article {
 }
 
 .other-projects-header {
-  color: #cd2c6c;
+  color: #6c6b68;
 }
 
 .other-projects {
@@ -216,11 +218,11 @@ article {
 }
 
 .arrow {
-  color: #cd2c6c;
+  color: #6c6b68;
 }
 
 h3 {
-  color: #cd2c6c;
+  color: #6c6b68;
   font-size: 20px;
   margin: 5px 0;
 }
@@ -231,7 +233,7 @@ h3 {
   font-size: 12px;
   padding: 5px 20px;
   text-align: center;
-  border: 1px solid #86d7db;
+  border: 1px solid #6c6b68;
 }
 
 /* THOUGTHS SECTION */
@@ -278,7 +280,7 @@ h3 {
 h4 {
   font-size: 17px;
   font-weight: bolder;
-  color: #cd2c6c;
+  color: #6c6b68;
 }
 
 /* FOR MORE SECTION */
@@ -298,12 +300,12 @@ h4 {
 
 .icon-link:hover,
 .icon:hover {
-  color: #86d7db;
+  color: #6c6b68;
 }
 
 /* FOOTER */
 footer {
-  background-color: #abd1d2;
+  background-color: #bebcb1;
   text-align: center;
   font-size: 24px;
   text-align: center;
@@ -381,7 +383,7 @@ footer {
   }
 
   .project-tools {
-    box-shadow: 1px 1px #86d7db;
+    box-shadow: 1px 1px #6c6b68;
     font-size: 20px;
   }
 
@@ -540,13 +542,13 @@ footer {
   }
 
   .view-button:hover {
-    background-color: #cce3e4;
+    background-color: #bebcb1;
   }
 
   .project-tools {
     font-size: 22px;
     padding: 5px;
-    box-shadow: 3px 3px #86d7db;
+    box-shadow: 3px 3px #6c6b68;
   }
 
   /* OTHER PROJECTS */
@@ -557,7 +559,7 @@ footer {
   }
 
   .view-button-other:hover {
-    background-color: #cce3e4;
+    background-color: #bebcb1;
   }
 
   /* THOUGTHS SECTION */
