@@ -13,7 +13,7 @@ body {
 
 /* HEADING */
 .heading {
-  background-image: url("./mufid-majnun-dfP41bjiWVM-unsplash.jpg");
+  background-image: url("./pawel-czerwinski-APVgVX_yDDc-unsplash.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -33,7 +33,7 @@ body {
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  border: 2px solid #6c6b68;
+  border: 2px solid #a0a1a8;
   object-fit: cover;
   filter: grayscale(40%);
 }
@@ -67,15 +67,14 @@ nav {
 }
 
 .divider-heading {
-  background-color: #6c6b68;
-  color: #bebcb1;
+  background-color: #a0a1a8;
   text-align: center;
   padding: 3px;
 }
 
 /* SUMMARY SECTION */
 .line {
-  border: 1px solid #6c6b68;
+  border: 1px solid #a0a1a8;
   width: 40px;
   display: inline-block;
   margin-bottom: 4px;
@@ -84,7 +83,7 @@ nav {
 .dot {
   height: 10px;
   width: 10px;
-  background-color: #6c6b68;
+  background-color: #a0a1a8;
   border-radius: 50%;
   display: inline-block;
   margin-left: -10px;
@@ -113,8 +112,7 @@ a {
 }
 
 .portfolio-heading {
-  background-color: #6c6b68;
-  color: #bebcb1;
+  background-color: #a0a1a8;
   text-align: center;
   padding: 4px;
 }
@@ -174,11 +172,11 @@ a {
 }
 
 .project-name {
-  color: #6c6b68;
+  color: #a0a1a8;
 }
 
 .project-tools {
-  background-color: #bebcb1;
+  background-color: #bea5aa;
 }
 
 .view-container {
@@ -195,7 +193,7 @@ a {
   font-size: 12px;
   padding: 5px 20px;
   text-align: center;
-  border: 1px solid #bebcb1;
+  border: 1px solid #bea5aa;
 }
 
 article {
@@ -208,7 +206,7 @@ article {
 }
 
 .other-projects-header {
-  color: #6c6b68;
+  color: #a0a1a8;
 }
 
 .other-projects {
@@ -218,11 +216,11 @@ article {
 }
 
 .arrow {
-  color: #6c6b68;
+  color: #a0a1a8;
 }
 
 h3 {
-  color: #6c6b68;
+  color: #a0a1a8;
   font-size: 20px;
   margin: 5px 0;
 }
@@ -233,7 +231,7 @@ h3 {
   font-size: 12px;
   padding: 5px 20px;
   text-align: center;
-  border: 1px solid #6c6b68;
+  border: 1px solid #a0a1a8;
 }
 
 /* THOUGTHS SECTION */
@@ -280,7 +278,7 @@ h3 {
 h4 {
   font-size: 17px;
   font-weight: bolder;
-  color: #6c6b68;
+  color: #a0a1a8;
 }
 
 /* FOR MORE SECTION */
@@ -300,12 +298,12 @@ h4 {
 
 .icon-link:hover,
 .icon:hover {
-  color: #6c6b68;
+  color: #a0a1a8;
 }
 
 /* FOOTER */
 footer {
-  background-color: #bebcb1;
+  background-color: #bea5aa;
   text-align: center;
   font-size: 24px;
   text-align: center;
@@ -383,7 +381,7 @@ footer {
   }
 
   .project-tools {
-    box-shadow: 1px 1px #6c6b68;
+    box-shadow: 1px 1px #a0a1a8;
     font-size: 20px;
   }
 
@@ -542,13 +540,13 @@ footer {
   }
 
   .view-button:hover {
-    background-color: #bebcb1;
+    background-color: #bea5aa;
   }
 
   .project-tools {
     font-size: 22px;
     padding: 5px;
-    box-shadow: 3px 3px #6c6b68;
+    box-shadow: 3px 3px #a0a1a8;
   }
 
   /* OTHER PROJECTS */
@@ -559,7 +557,7 @@ footer {
   }
 
   .view-button-other:hover {
-    background-color: #bebcb1;
+    background-color: #bea5aa;
   }
 
   /* THOUGTHS SECTION */
